@@ -82,6 +82,7 @@ def delete_task(id):
     
     tasks.remove(task)
     return jsonify({"message":"Tarefa deletada com sucesso"})
+    
 
 
 #pra executar, fazer funcionar
